@@ -6,6 +6,12 @@
 
 /* utilities */
 
+.clearfix::after{
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
 .container{
   width: 80%;
   height: 100vh;
@@ -15,8 +21,30 @@
 
 header{
   position: fixed;
-  width: 100%;
+  width: 80%;
   height: 13vh;
+  padding-top: 30px;
   background-color: rgb(80, 80, 187);
 }
 
+/* nav */
+
+nav{
+  float:right;
+}
+
+ul li{
+  list-style: none;
+  color: black;
+  background-color: aliceblue;
+  display: inline-block;
+  margin: 0 15px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}

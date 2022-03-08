@@ -27,4 +27,37 @@ body{
   background-color: aquamarine;
 }
 
+/* HEADER */
+
+header{
+  position: fixed;
+  background-color: brown;
+  width: 80%;
+  height: 13vh;
+  padding-top: 60px;
+}
+
+/* MAIN */
+
+/* nav */
+
+header nav{
+  float: right;
+}
+
+header nav ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  padding: 15px 20px;
+  margin: 0 20px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  color: black;
+  background-color: white;
+}
+
 

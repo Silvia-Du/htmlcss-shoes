@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utilities */
+
+.container{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 13vh;
+  background-color: rgb(80, 80, 187);
+}
+

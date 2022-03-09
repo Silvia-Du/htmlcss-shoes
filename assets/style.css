@@ -11,7 +11,7 @@ html{
 }
 
 body{
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Rubik Mono One', sans-serif;
 }
 
 .clearfix::after{
@@ -50,27 +50,29 @@ header nav{
 header nav ul li{
   list-style: none;
   display: inline-block;
+  margin: 0 20px;
 }
 
 nav ul li a{
   text-decoration: none;
-  padding: 20px 30px;
-  margin: 0 20px;
-  font-size: 1.5rem;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
   border-radius: 50%;
-  line-height: calc(15px + 1.5rem);
   color: black;
   background-color: white;
+  box-shadow: 0 5px 3px rgba(0, 0, 0, 0.5);
 }
 
 ul li a:hover{
-  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 7px 6px rgba(0, 0, 0, 0.5);
 }
 
 ul li a:active{
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffff00;
-  box-shadow: 2px -2px black;
+  color: red;
+  transform: translate(0, 5px);
 }
 
 /* MAIN */
